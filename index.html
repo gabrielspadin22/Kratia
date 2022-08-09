@@ -13,82 +13,86 @@
     <title>Kratia</title>
 </head>
 <body>
-    <img class="position-absolute z_negativo" width="100%" src="images/Group 1.png" alt="">
+    <img class="position-absolute z_negativo" width="100%" src="images/Group 1.png" alt="background_circles">
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow ">
         <div class="container-fluid">
-          <a class="navbar-brand text-primary fw-bold" href="#"><img width="70px" src="images/kratia.png" alt=""></a>
+          <a class="navbar-brand text-primary fw-bold" href="#"><img width="70px" src="images/kratia.png" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li class="nav-item">
-                <a class="nav-link fs-4 " aria-current="page" href="#">Nosotros</a>
+                <a class="nav-link fs-4 " aria-current="page" href="#us">Nosotros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link fs-4" href="#">Tecnologia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-4" href="#">Mas info</a>
+                <a class="nav-link fs-4" href="#mas-info">Mas info</a>
               </li>
             </ul>
-            <div class="me-5 fs-5 text-secondary">
-              <i class="bi bi-facebook mx-1"></i>
-              <i class="bi bi-youtube mx-1"></i>
-              <i class="bi bi-linkedin mx-1"></i>
+            <div class="me-5 fs-5">
+              <a class="text-secondary" href="https://www.linkedin.com/company/kratiavote/"><i class="bi bi-linkedin mx-1"></i></a>
+              <a class="text-secondary" href="https://instagram.com/kratia.vote?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram mx-1"></i></a>
+              <a class="text-secondary" href="https://www.youtube.com/channel/UC-x91IIa723qF0xV3zNV0gA/videos"><i class="bi bi-youtube mx-1"></i></a>
             </div>
-            <img width="35px" class="rounded-circle border border-secondary my-2" src="images/es.png" alt="">
+            <img width="35px" class="rounded-circle border border-secondary my-2 me-5" src="images/es.png" alt="español">
           </div>
         </div>
       </nav>
       <div class="h_100">
-        <div class="container-fluid text-center d-flex p-5 mt-5 mb-5">
-          <img width="20%" class="ms-auto" src="images/kratia.png" alt="">
+        <div class="container-fluid text-center d-flex p-5 mt-3 mb-auto">
+          <img width="35%" class="ms-auto" src="images/kratia.png" alt="logo">
           <div class="my-auto ms-5 me-auto color_kratia">
             <h1 class="font_title fw-bold">Kratia</h1>
             <p class="font_subtitle fw-bold">Votacion web segura</p>
           </div>
         </div>
-        <div class="my-5 d-flex">
-          <div class="w_100 ms-5">
+        <div class="d-flex">
+          <div class="w_100 ms-auto">
             <div class="border_bottom_btn p-3"></div>
             <div class=" border_top_btn p-0"></div>
           </div>
-          <button class="btn btn_contactanos my-auto mx-3 fs-4 rounded-pill p-3">Contactanos</button>
-          <div class="w_100 me-5">
+          <button class="btn btn_contactanos  mx-3 fs-4 rounded-pill p-3" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contactanos</button>
+          <div class="w_100 me-auto">
             <div class="border_bottom_btn p-3"></div>
             <div class=" border_top_btn p-0"></div>
           </div>
         </div>
-        <div class="font_subtitle fw-bold text-center ">
-          <i class="bi bi-arrow-down"></i>
+        <div class="font_subtitle fw-bold text-center my-auto">
+          <a href="#us"><i class="bi bi-arrow-down"></i></a>
         </div>  
       </div>
       <div class="text-center m-5">
-        <h2 class="font_subtitle fw-bold">Que es Kratia?</h2>
+        <h2 id="us" class="font_subtitle fw-bold">Que es Kratia?</h2>
         <p class="fs-2 fw-bold"> <a href="">Kratia</a> es un sistema 100% basado en <a href="https://en.wikipedia.org/wiki/Blockchain">Blockchain</a>. Gracias a esto garantizamos la inmutabilidad y privacidad de los datos desde el inicio hasta el fin del proceso electoral</p>
       </div>
       <h3 class="text-center">Casos de uso</h3>
-      <div class="d-flex text-center fs-3">
-        <div class="circle d-flex ms-5 bg-primary bg-opacity-50 shadow-lg">
-          <div class="m-auto ">
-            <h4 class="">Caca</h4>
-            <p class="">Elecciones de autoridades Empresas/Instituciones/Gobierno</p>
+      <div class="row row-cols-1 row-cols-md-3 g-5 mx-0 my-5 text-center">
+        <div class="col p-0">
+          <div class="card h-100 circle mx-auto">
+            <div class="card-body p-0">
+              <p class="card-text fs-5 p-5">Elecciones de autoridades Empresas / Instituciones / Gobierno</p>
+            </div>
           </div>
         </div>
-        <div class="circle d-flex mx-auto bg-primary bg-opacity-25 shadow-lg">
-          <div class="m-auto">
-            <h4 class="">Caca</h4>
-            <p class="">Asambleas Colegios/Universidades/Instituciones/</p>
+        <div class="col p-0">
+          <div class="card h-100 circle mx-auto">
+            <div class="card-body p-0">
+              <p class="card-text fs-5 p-5">Asambleas Colegios / Universidades / Instituciones</p>
+            </div>
           </div>
         </div>
-        <div class="circle d-flex me-5 bg-primary bg-opacity-50 shadow-lg">
-          <div class="m-auto">
-            <h4 class="">Caca</h4>
-            <p class="">Votaciones por Accionistas en S.A</p>
+        <div class="col p-0">
+          <div class="card h-100 circle mx-auto">
+            <div class="card-body p-0">
+              <p class="card-text fs-5 p-5">Votaciones por Accionistas en S.A</p>
+            </div>
           </div>
         </div>
       </div>
+
       <div class="container-fluid my-5">
         <div class="d-flex my-2">
           <div class="border-end border-primary ms-auto sep"></div>
@@ -99,22 +103,24 @@
           <div class="border-end border-primary ms-auto sep"></div>
           <div class="border-start border-primary me-auto sep"></div>
         </div>
-        <div class="container fs-1 text-center d-flex text-center">
-          <div class="m-auto p-5 border border-primary rounded-pill">Virtual</div>
-          <div class="m-auto p-5 border border-primary rounded-pill">Presencial</div>
-          <div class="m-auto p-5 border border-primary rounded-pill">Mixta</div>
+        <div class="container p-0 text-center d-flex text-center mx-auto">
+          <div class="mx-auto p-2 border border-primary rounded-pill fs-5">Virtual</div>
+          <div class="mx-auto p-2 border border-primary rounded-pill fs-5">Presencial</div>
+          <div class="mx-auto p-2 border border-primary rounded-pill fs-5">Mixta</div>
         </div>
       </div>
       <div class="row row-cols-1 row-cols-md-3 g-5 mx-0 my-5 text-center">
         <div class="col">
-          <div class="card h-100"><div class="card-body">
+          <div class="card h-100">
+            <div class="card-body">
               <h5 class="card-title">Voto secreto</h5>
               <p class="card-text">El voto se desvincula de la identidad del votante con nuestro modelo de privacidad.</p>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100"><div class="card-body">
+          <div class="card h-100">
+            <div class="card-body">
               <h5 class="card-title">Auditoría</h5>
               <p class="card-text">Validación de votos y recuento de resultados.</p>
             </div>
@@ -129,14 +135,16 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100"> <div class="card-body">
+          <div class="card h-100">
+            <div class="card-body">
               <h5 class="card-title">Registro de asistencia</h5>
               <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non reprehenderit ratione, recusandae id dolorum perferendis ipsa obcaecati cum nostrum molestias officiis similique optio corporis eligendi sunt illo ea dolor nisi.</p>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100"><div class="card-body">
+          <div class="card h-100">
+            <div class="card-body">
               <h5 class="card-title">Resultados públicos o privados</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate pariatur ipsa sunt illo delectus quia dignissimos. Voluptatibus accusamus nesciunt officia error ab ratione ipsam debitis eligendi possimus asperiores. Harum, blanditiis!</p>
             </div>
@@ -144,11 +152,11 @@
         </div>
       </div>
       <div class="text-center fs-4 my-5">
-        <p class="fs-2 mt-5">Mas info:</p>
+        <p id="mas-info" class="fs-2 mt-5">Mas info:</p>
         <a href="https://drive.google.com/file/d/1ArqHD6ekHfUyoON81uig2_fyZ1dbZ4Fg/view?usp=sharing">Voucher.pdf</a>
       </div>
       <footer class="container-fluid text-center">
-          <button class="btn btn-dark border mt-5 mx-3 fs-4 rounded-pill px-3">Contactanos</button>
+          <button class="btn btn-dark border mt-5 mx-3 fs-4 rounded-pill px-3" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contactanos</button>
           <div class="d-flex text-light">
             <ul class="me-auto ms-4 text-left list-unstyled">
               <li class="my-4">Blockchain</li>
@@ -163,6 +171,30 @@
             <small>2022</small>
           </div>
       </footer>
+      <div class="modal background_kratia fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark bg-opacity-25 ">
+            <div class="modal-header">
+              <img src="images/kratia.png" width="50px" alt="Kratia logo" class="mx-2">
+              <h5 class="modal-title text-light mx-auto" id="exampleModalLabel">¡Hola! ¿En qué podemos ayudar?</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="" action="https://formsubmit.co/info@kratiavote.com" method="POST">
+                <label class=" text-center text-light">Ingresa tu correo</label>
+                <input class="d-flex m-auto w-100 "type="email" name="email" required placeholder="correo@gmail.com">
+                <label class="text-center text-light">Escribí tu mensaje</label>
+                <textarea class="d-flex m-auto textarea text-dark" type="text" name="name" required placeholder="Escribi tu mensaje..."></textarea>
+                <div class="text-center m-2">
+                  <button type="submit" class="btn btn-light">Enviar</button>
+                  <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+                <input type="hidden" name="_next" value="index.html">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
